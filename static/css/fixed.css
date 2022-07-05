@@ -1,0 +1,70 @@
+footer.d-flex{
+    padding-top: 12px;
+    width: 100%;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+.footerbox{ position:fixed;
+    bottom:0px;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: white;
+    align-items: center;
+}
+
+.navbar-default {
+    background-color: #7b8fff;
+  }
+
+.arin{
+    width: 98vw;
+    height: 98vw;
+}
+
+.contents{
+    padding-top: 56px;
+}
+
+.login_box{
+    border: 1px #bcb8b1 solid;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.input-id{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.input-password{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logo{
+    margin-top: 8%;
+
+    font-size: 50px;
+    color: #463f3a;
+    font-weight: 700;
+}
+
+body{
+    -ms-overflow-style: none;
+    }
+    
+   ::-webkit-scrollbar {
+     display: none;
+   }

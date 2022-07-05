@@ -1,17 +1,16 @@
-from flask import Flask
-from flask import Blueprint
-
+from flask import Flask, render_template
 
 PORT = "1128"
 HOST = "127.0.0.1"
 
-
 app = Flask(__name__)
-from ROUTE import home
+@app.route('/')
+def helloFlask():
+    return render_template('main.html')
 
-app.register_blueprint(home.bp)
-
-
+@app.route('/login')
+def loginPage():
+    return render_template('login.html')
 
 if __name__ == '__main__':
     app.run()
